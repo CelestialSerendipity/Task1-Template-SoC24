@@ -10,7 +10,7 @@ from people import * # import everything!
 if __name__ == "__main__":  # Equivalent to int main() {} in C++.
     last_input = 99
     while last_input != 0:
-        last_input = input("Please enter a query number:")
+        last_input = int(input("Please enter a query number:"))
 
         if last_input == 1:
             name = input("Name:")
